@@ -14,3 +14,30 @@ body {
     background-color: #d3d3d3;
     box-shadow: 0 0 30px -2px #9b9a9a;
 }
+
+.contacts p {
+    font-size: 26px;
+    color: #696969;
+    /*text-shadow: 2px 2px 0 #000000;*/
+    text-align: 30px;
+    margin: 0;
+    font-weight: bold;
+    text-align: right;
+}
+
+.head-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+}
+
+.logo {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
