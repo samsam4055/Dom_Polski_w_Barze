@@ -5,7 +5,7 @@
 body {
     width: 100%;
     background-color: #dcdcdc;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 .container {
