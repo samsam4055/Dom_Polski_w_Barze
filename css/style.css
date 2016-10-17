@@ -5,23 +5,21 @@
 body {
     width: 100%;
     background-color: #dcdcdc;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #d3d3d3;
-    box-shadow: 0 0 30px -2px #9b9a9a;
+    background-color: #dcdcdc;
 }
 
 .contacts p {
-    font-size: 26px;
+    font-size: 24px;
     color: #696969;
-    /*text-shadow: 2px 2px 0 #000000;*/
     text-align: 30px;
     margin: 0;
-    font-weight: bold;
     text-align: right;
 }
 
