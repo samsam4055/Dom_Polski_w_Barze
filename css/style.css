@@ -65,6 +65,11 @@ body {
     color: #dcdcdc;
 }
 
+.main-nav li:not(:last-of-type):active {
+    background-color: #a11b2f;
+    color: #9f9a9a;
+}
+
 .main-nav a {
     text-align: center;
     text-decoration: none;
@@ -83,4 +88,8 @@ body {
     padding-left: 12px;
     /*max-width: 400px;*/
     /*min-width: 130px;*/
+}
+
+.map {
+
 }
