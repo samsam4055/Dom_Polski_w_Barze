@@ -6,6 +6,7 @@ body {
     width: 100%;
     background-color: #dcdcdc;
     font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
 }
 
 .container {
@@ -21,7 +22,6 @@ body {
     text-align: 30px;
     margin: 0;
     text-align: right;
-    font-weight: 300;
 }
 
 .contacts p:last-of-type {
@@ -114,13 +114,34 @@ body {
 .map {
     background-image: url("../img/map.png");
     width: 1200px;
-    height: 500px;
+    height: 300px;
+    border-top: 3px solid #ff0000;
 }
 
 .slider {
     width: 100%;
     height: 350px;
     border: 1px solid #000000;
+}
+
+hr {
+    border: none;
+    background-color: #ff0000;
+    height: 1px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-block {
+    width: 48%;
+    line-height: 20px;
+}
+
+.info-block h2 {
+    font-weight: 300;
 }
 
 .main-footer {
@@ -134,11 +155,11 @@ body {
 
 .footer-left {
     border: 1px solid #000000;
-    margin: 3px 3px 3px 170px;
+    margin: 3px 3px 3px 150px;
 }
 
 .footer-right {
-    margin: 7px 170px 0 3px;
+    margin: 7px 150px 0 3px;
 }
 
 .footer-right img{
