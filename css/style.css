@@ -126,12 +126,12 @@ a {
 .drop-menu li:hover a {
 	color: #ffffff;
 	background-color: #ff0000;
-} 
+}
 
 .drop-menu li a:active {
 	background-color: #ab1c31;
     color: #b8afaf;
-} 
+}
 
 .search-block {
 	padding: 10px 50px 10px 10px;
@@ -221,11 +221,11 @@ h2 {
 
 .footer-left {
     border: 1px solid #000000;
-    margin: 3px 3px 3px 150px;
+    margin: 6px 3px 3px 150px;
 }
 
 .footer-right {
-    margin: 7px 150px 0 3px;
+    margin: 8px 150px 0 3px;
 }
 
 .footer-right img{
