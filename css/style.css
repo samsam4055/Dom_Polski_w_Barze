@@ -239,12 +239,25 @@ h2 {
 .news {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .news-block {
     width: 23%;
     border: 1px solid #000000;
     min-height: 300px;
+}
+
+.contact-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ff0000;
+}
+
+.contact-block {
+    width: 33.3%;
+    min-height: 140px;
 }
 
 .main-footer {
