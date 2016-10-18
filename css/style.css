@@ -101,6 +101,7 @@ a {
 	background-color: #d4213d;
 	color: #dcdcdc;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    z-index: 10;
 }
 
 .menu-about-us:hover .drop-menu {
@@ -246,4 +247,9 @@ h2 {
     padding: 10px ;
     font-size: 14px;
     margin: auto;
+}
+
+.adress {
+    width: 100%;
+    min-height: 300px;
 }
