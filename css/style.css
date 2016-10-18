@@ -188,7 +188,6 @@ a:hover {
 .slider {
     width: 100%;
     height: 350px;
-    border: 1px solid #000000;
     margin-bottom: 24px;
 	animation-name: slider;
 	animation-duration: 20s;
@@ -239,12 +238,46 @@ h2 {
 .news {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .news-block {
     width: 23%;
-    border: 1px solid #000000;
     min-height: 300px;
+}
+
+.contact-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ff0000;
+}
+
+.contact-block {
+    width: 33.3%;
+    min-height: 140px;
+}
+
+.main-adress {
+    min-height: 140px;
+    padding-top: 10px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.main-phones {
+    min-height: 140px;
+    padding-top: 12px;
+}
+
+.main-phones p:last-of-type {
+    color: #d4213d;
+}
+
+.social-btns {
+    min-height: 140px;
+    padding-top: 47px;
+    padding-right: 20px;
 }
 
 .main-footer {
@@ -276,8 +309,35 @@ h2 {
 }
 
 .adress {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    min-height: 300px;
+}
+
+.adress .main-adress {
+    min-height: 140px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.adress h2 {
+    line-height: 30px;
+    color: #d4213d;
+}
+
+.adress .main-phones {
+    min-height: 140px;
+    line-height: 16px;
+}
+
+.adress .main-phones p:last-of-type {
+    color: #d4213d;
+}
+
+.adress .social-btns {
+    min-height: 140px;
+    padding-top: 70px;
+    padding-right: 20px;
 }
 
 .up {
