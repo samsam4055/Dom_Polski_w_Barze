@@ -193,7 +193,7 @@ a:hover {
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
 	animation-fill-mode: backwards;
-	animation-timing-function: linear;
+	transition: background 0.5s ease;
 }
 
 @keyframes slider {
@@ -244,7 +244,7 @@ h2 {
 
 .news-block {
     width: 23%;
-    min-height: 300px;
+    min-height: 240px;
 }
 
 .contact-us {
@@ -360,39 +360,3 @@ h2 {
     overflow: hidden;
     float: left;
 }
-
-.breadcrumbs-block {
-	min-height: 20px;
-	width: 267px;
-	margin-bottom: 5px;
-}
-
-.breadcrumbs {
-/*    margin-top: -22px; */
-/*	margin-left: -9px;*/
-	padding: 0;
-	margin: 0;
-}
-   
-.breadcrumbs li {
-    display: inline-block;
-	font-size: 14px;
-	line-height: 16px;
-}
-
-.breadcrumbs li::before {
-    content: "»";
-    margin-left: 5px;
-    margin-right: 5px;
-/*    color: #ffffff;*/
-}
-
-.breadcrumbs li:first-child::before {
-    content: "";
-    margin-right: 0;
-}
-
-/*
-.breadcrumbs a {
-	color: #ffffff;
-}*/
