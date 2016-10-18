@@ -42,58 +42,67 @@ body {
 
 .main-nav {
     background-color: #ff0000;
-    height: 60px;
+    min-height: 60px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .main-nav ul {
     display: flex;
     justify-content: flex-start;
+	flex-wrap: wrap;
     list-style: none;
     padding: 0;
     text-align: center;
     margin: 0;
-    height: 60px;
+/*    min-height: 60px;*/
 }
 
 .main-nav li {
-    line-height: 60px;
-    min-width: 130px;
+    
+	
+/*    min-width: 130px;*/
 }
 
-.main-nav li:not(:last-of-type):hover {
-    background-color: #d4213d;
+.main-nav li:hover {
+    
 }
 
-.main-nav li:not(:last-of-type):active {
-    background-color: #ab1c31;
+.main-nav li:active {
+    
 }
 
 .main-nav a {
+	display: inline-block;
     text-align: center;
     text-decoration: none;
     color: #ffffff;
     font-size: 18px;
+	padding: 0 20px;
+	height: 60px;
+	line-height: 60px;
 }
 
-.main-nav li:not(:last-of-type):hover a {
+.main-nav li:hover a {
+	background-color: #d4213d;
     color: #dcdcdc;
 }
 
-.main-nav li:not(:last-of-type):active a {
+.main-nav li:active a {
+	background-color: #ab1c31;
     color: #b8afaf;
+	box-shadow: inset 0 5px #800000;
 }
 
 .search {
-    float: right;
+	padding: 10px;
 }
 
 .main-nav input[type="search"] {
     height: 40px;
-    width: 360px;
     border: none;
-    padding-left: 12px;
-    /*max-width: 400px;*/
-    /*min-width: 130px;*/
+    padding: 1px 12px;
+    min-width: 200px;
 }
 
 .map {
