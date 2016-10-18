@@ -76,12 +76,12 @@ body {
 	line-height: 60px;
 }
 
-.main-nav li:hover a {
+.main-nav li:hover > a {
 	background-color: #d4213d;
     color: #dcdcdc;
 }
 
-.main-nav li:active a {
+.main-nav li a:active {
 	background-color: #ab1c31;
     color: #b8afaf;
 }
@@ -91,28 +91,75 @@ body {
 }
 
 .menu-about-us .drop-menu {
+	display: none;
 	position: absolute;
-	background-color: #ff0000;
-	
+	top: 60px;
+	left: 0;
+	background-color: #d4213d;
+	color: #dcdcdc;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu-about-us:hover .drop-menu {
+	display: block;
+}
+
+.drop-menu li {
+	width: 100%;
 }
 
 .drop-menu a {
 	display: inline-block;
-	line-height: 30px;
-	min-height: 120px;
-	min-width: 220px;
-	padding: 20px 20px;
+	line-height: 20px;
+	height: 100%;
+	width: 100%;
+	padding: 10px 15px;
+	text-align: left;
+	font-size: 15px;
+	white-space: nowrap;
+}
+
+.drop-menu li:hover a {
+	color: #ffffff;
+	background-color: #ff0000;
+} 
+
+.drop-menu li a:active {
+	background-color: #ab1c31;
+    color: #b8afaf;
+} 
+
+.search-block {
+	padding: 10px 50px 10px 10px;
 }
 
 .search {
-	padding: 10px;
+	position: relative;
 }
 
 .main-nav input[type="search"] {
-    height: 40px;
+	height: 40px;
     border: none;
     padding: 1px 12px;
     min-width: 200px;
+}
+
+.search input[type=search]:focus {
+	outline: none;
+}
+
+.search::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -40px;
+	width: 40px;
+    height: 40px;
+	background: url("../img/lupa.png") no-repeat;
+}
+
+.search:hover::before {
+	background-color: #d4213d;
 }
 
 .map {
