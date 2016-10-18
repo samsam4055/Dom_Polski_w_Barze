@@ -62,12 +62,10 @@ body {
 
 .main-nav li:not(:last-of-type):hover {
     background-color: #d4213d;
-    color: #dcdcdc;
 }
 
 .main-nav li:not(:last-of-type):active {
-    background-color: #a11b2f;
-    color: #9f9a9a;
+    background-color: #ab1c31;
 }
 
 .main-nav a {
@@ -75,6 +73,14 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-size: 18px;
+}
+
+.main-nav li:not(:last-of-type):hover a {
+    color: #dcdcdc;
+}
+
+.main-nav li:not(:last-of-type):active a {
+    color: #b8afaf;
 }
 
 .search {
