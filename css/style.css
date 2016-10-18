@@ -18,12 +18,16 @@ body {
 
 a {
     text-decoration: none;
+    color: #d4213d;
+}
+
+a:hover {
+    color: #000000;
 }
 
 .contacts p {
     font-size: 24px;
     color: #000000;
-    text-align: 30px;
     margin: 0;
     text-align: right;
 }
@@ -102,6 +106,7 @@ a {
 	background-color: #d4213d;
 	color: #dcdcdc;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    z-index: 10;
 }
 
 .menu-about-us:hover .drop-menu {
@@ -126,12 +131,12 @@ a {
 .drop-menu li:hover a {
 	color: #ffffff;
 	background-color: #ff0000;
-} 
+}
 
 .drop-menu li a:active {
 	background-color: #ab1c31;
     color: #b8afaf;
-} 
+}
 
 .search-block {
 	padding: 10px 50px 10px 10px;
@@ -173,10 +178,18 @@ a {
     border-top: 3px solid #ff0000;
 }
 
+.map-contacts {
+    background-image: url("../img/map-contacts.png");
+    width: 1200px;
+    height: 720px;
+    border-top: 3px solid #ff0000;
+}
+
 .slider {
     width: 100%;
     height: 350px;
     border: 1px solid #000000;
+    margin-bottom: 24px;
 }
 
 hr {
@@ -188,6 +201,7 @@ hr {
 .info {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
 
 .info-block {
@@ -197,6 +211,10 @@ hr {
 
 h2 {
     font-weight: 300;
+}
+
+.info-block .sign {
+    margin-left: 60%;
 }
 
 .news {
@@ -221,11 +239,11 @@ h2 {
 
 .footer-left {
     border: 1px solid #000000;
-    margin: 3px 3px 3px 150px;
+    margin: 6px 3px 3px 150px;
 }
 
 .footer-right {
-    margin: 7px 150px 0 3px;
+    margin: 8px 150px 0 3px;
 }
 
 .footer-right img{
@@ -236,4 +254,9 @@ h2 {
     padding: 10px ;
     font-size: 14px;
     margin: auto;
+}
+
+.adress {
+    width: 100%;
+    min-height: 300px;
 }
