@@ -17,10 +17,17 @@ body {
 
 .contacts p {
     font-size: 24px;
-    color: #696969;
+    color: #000000;
     text-align: 30px;
     margin: 0;
     text-align: right;
+    font-weight: 300;
+}
+
+.contacts p:last-of-type {
+    font-size: 19px;
+    color: #d4213d;
+    margin-top: 8px;
 }
 
 .head-up {
@@ -59,17 +66,17 @@ body {
 }
 
 .main-nav li {
-    
-	
+
+
 /*    min-width: 130px;*/
 }
 
 .main-nav li:hover {
-    
+
 }
 
 .main-nav li:active {
-    
+
 }
 
 .main-nav a {
