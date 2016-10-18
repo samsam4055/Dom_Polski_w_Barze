@@ -47,18 +47,25 @@ body {
 
 .main-nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 .main-nav ul li {
     line-height: 56px;
+    min-width: 130px;
+}
+
+.main-nav ul li:hover {
+    background-color: #d4213d;
+    color: #dcdcdc;
 }
 
 .main-nav a {
     text-align: center;
     text-decoration: none;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
 }
