@@ -349,14 +349,9 @@ h2 {
     overflow: hidden;
     width: 51px;
     height: 51px;
-    background: url(../img/up.png) no-repeat left top;
+    background: url(../img/up.png) no-repeat left -51px;
 }
 
-.up-hover {
-    background: url(../img/up.png) no-repeat left -102px;
-    width: 51px;
-    height: 51px;
-    display: block;
-    overflow: hidden;
-    float: left;
+.up:hover {
+    background: url(../img/up.png) no-repeat left top;
 }
