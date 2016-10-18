@@ -52,6 +52,7 @@ body {
     min-height: 60px;
 	display: flex;
 	justify-content: space-between;
+	border-bottom: 2px solid #000000;
 }
 
 .main-nav ul {
@@ -62,21 +63,6 @@ body {
     padding: 0;
     text-align: center;
     margin: 0;
-/*    min-height: 60px;*/
-}
-
-.main-nav li {
-
-
-/*    min-width: 130px;*/
-}
-
-.main-nav li:hover {
-
-}
-
-.main-nav li:active {
-
 }
 
 .main-nav a {
@@ -98,6 +84,24 @@ body {
 .main-nav li:active a {
 	background-color: #ab1c31;
     color: #b8afaf;
+}
+
+.main-nav .menu-about-us {
+	position: relative;
+}
+
+.menu-about-us .drop-menu {
+	position: absolute;
+	background-color: #ff0000;
+	
+}
+
+.drop-menu a {
+	display: inline-block;
+	line-height: 30px;
+	min-height: 120px;
+	min-width: 220px;
+	padding: 20px 20px;
 }
 
 .search {
