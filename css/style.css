@@ -259,6 +259,28 @@ h2 {
     min-height: 140px;
 }
 
+.main-adress {
+    min-height: 140px;
+    padding-top: 10px;
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+.main-phones {
+    min-height: 140px;
+    padding-top: 12px;
+}
+
+.main-phones p:last-of-type {
+    color: #d4213d;
+}
+
+.social-btns {
+    min-height: 140px;
+    padding-top: 47px;
+    padding-right: 30px;
+}
+
 .main-footer {
     display: flex;
     width: 100%;
