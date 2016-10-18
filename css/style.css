@@ -193,6 +193,7 @@ a:hover {
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
 	animation-fill-mode: backwards;
+	animation-timing-function: linear;
 }
 
 @keyframes slider {
@@ -338,4 +339,24 @@ h2 {
     min-height: 140px;
     padding-top: 70px;
     padding-right: 20px;
+}
+
+.up {
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 51px;
+    height: 51px;
+    background: url(../img/up.png) no-repeat left top;
+}
+
+.up-hover {
+    background: url(../img/up.png) no-repeat left -102px;
+    width: 51px;
+    height: 51px;
+    display: block;
+    overflow: hidden;
+    float: left;
 }
