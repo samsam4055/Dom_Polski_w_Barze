@@ -16,6 +16,10 @@ body {
     background-color: #dcdcdc;
 }
 
+a {
+    text-decoration: none;
+}
+
 .contacts p {
     font-size: 24px;
     color: #000000;
@@ -140,8 +144,19 @@ hr {
     line-height: 20px;
 }
 
-.info-block h2 {
+h2 {
     font-weight: 300;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-block {
+    width: 23%;
+    border: 1px solid #000000;
+    min-height: 300px;
 }
 
 .main-footer {
