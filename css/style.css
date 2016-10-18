@@ -190,25 +190,6 @@ a:hover {
     height: 350px;
     border: 1px solid #000000;
     margin-bottom: 24px;
-	animation-name: slider;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-fill-mode: backwards;
-}
-
-@keyframes slider {
-	0% {
-		background: url("../img/sli1.jpg") no-repeat;
-	}
-	33% {
-		background: url("../img/sli2.jpg") no-repeat;
-	}
-	66% {
-		background: url("../img/sli3.jpg") no-repeat;
-	}
-	100% {
-		background: url("../img/sli1.jpg") no-repeat;
-	}
 }
 
 hr {
