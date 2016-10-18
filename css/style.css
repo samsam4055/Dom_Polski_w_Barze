@@ -310,6 +310,33 @@ h2 {
 }
 
 .adress {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    min-height: 300px;
+}
+
+.adress .main-adress {
+    min-height: 140px;
+    line-height: 30px;
+    padding-left: 30px;
+}
+
+.adress h2 {
+    line-height: 30px;
+    color: #d4213d;
+}
+
+.adress .main-phones {
+    min-height: 140px;
+    line-height: 16px;
+}
+
+.adress .main-phones p:last-of-type {
+    color: #d4213d;
+}
+
+.adress .social-btns {
+    min-height: 140px;
+    padding-top: 70px;
+    padding-right: 30px;
 }
