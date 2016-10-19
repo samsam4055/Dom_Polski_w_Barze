@@ -238,15 +238,16 @@ h2 {
 
 .news {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.news-block {
+.news-block:not(:nth-child(4n)) {
     width: 23%;
     min-height: 240px;
+    margin-right: 32px;
 }
 
 .contact-us {
