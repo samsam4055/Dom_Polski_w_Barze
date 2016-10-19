@@ -311,10 +311,14 @@ h2 {
 
 .fri-com {
     font-size: 12px;
-    text-align: center;
+    text-align: right;
     background-color: inherit;
     color: #000000;
     font-weight: 500;
+}
+
+.fri-com span {
+    margin-right: 5px;
 }
 
 .adress {
@@ -422,4 +426,31 @@ h3:hover {
 .drop-menu .active a:active {
 	color: #ffffff;
 	background-color: #ff0000;
+}
+
+/*Пятая страница Media*/
+
+.main-gallery h3 {
+    color: #000000;
+    font-weight: 400;
+}
+
+.gallery {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    margin-right: 37px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+.gallery-item:nth-child(5n) {
+    margin-right: 1px;
+}
+
+.gallery-item:nth-child(5n+1) {
+    margin-left: 1px;
 }
