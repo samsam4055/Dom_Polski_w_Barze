@@ -403,3 +403,15 @@ h3 {
 h3:hover {
     color: #000000;
 }
+
+.main-nav .active a,
+.main-nav .active a:active {
+    background-color: #d4213d;
+    color: #dcdcdc;
+}
+
+.drop-menu .active a,
+.drop-menu .active a:active {
+	color: #ffffff;
+	background-color: #ff0000;
+}
