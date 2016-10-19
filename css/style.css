@@ -309,6 +309,14 @@ h2 {
     margin: auto;
 }
 
+.fri-com {
+    font-size: 12px;
+    text-align: center;
+    background-color: inherit;
+    color: #000000;
+    font-weight: 500;
+}
+
 .adress {
     display: flex;
     justify-content: space-between;
