@@ -367,7 +367,7 @@ h2 {
 	padding: 0;
 	margin-bottom: 0;
 }
-   
+
 .breadcrumbs li {
     display: inline-block;
 	font-size: 14px;
@@ -382,4 +382,24 @@ h2 {
 
 .breadcrumbs li:first-child::before {
     content: "";
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.feature-block {
+    width: 23%;
+    min-height: 240px;
+}
+
+h3 {
+    font-weight: 300;
+    color: #d4213d;
+}
+
+h3:hover {
+    color: #000000;
 }
