@@ -6,8 +6,10 @@
 	<title>Dom Polski w Barze</title>
 	<link rel="shortcut icon" href="img/dp_logo.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/ideal-image-slider.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+	<script src="/js/jquery-3.1.1.min.js"></script>
 </head>
 
 <body>
@@ -54,8 +56,10 @@
 		</header>
 
 		<main>
-			<div class="slider">
-
+			<div id="slider">
+				<img src="img/sli1.jpg" alt="sli-1">
+				<img src="img/sli2.jpg" alt="sli-2">
+				<img src="img/sli3.jpg" alt="sli-3">
 			</div>
 			<section class="info">
 				<div class="info-block">
@@ -145,7 +149,18 @@
 
 	</div>
 	<a href="#" class="up"></a>
+	<script src="js/ideal-image-slider.js"></script>
+	<script>
+	new IdealImageSlider.Slider('#slider');
+	var slider = new IdealImageSlider.Slider({
+    selector: '#slider',
+    height: 350, // Required but can be set by CSS
+    interval: 4000
+	});
+	slider.start();
+	</script>
 	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=0bQkhh704vz4f1We9k-DfSw0lrJp7usq&amp;width=1200&amp;height=300&amp;lang=pl_PL&amp;sourceType=constructor&amp;scroll=true;id=yandex-map"></script>
+
 </body>
 
 </html>
