@@ -6,10 +6,10 @@
 	<title>Dom Polski w Barze</title>
 	<link rel="shortcut icon" href="img/dp_logo.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/normalize.css">
-	<!-- <link rel="stylesheet" href="css/ideal-image-slider.css"> -->
+	<link rel="stylesheet" href="css/ideal-image-slider.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
-	<!-- <script type="text/javascript" src="js/ajSlider.js"></script> -->
+	<script type="text/javascript" src="js/ideal-image-slider.min.js"></script>
 </head>
 
 <body>
@@ -56,12 +56,14 @@
 		</header>
 
 		<main>
-			<div class="slider"></div>
-			<!-- <div id="ajSlider">
-				<img src="img/sli1.jpg" width="1200" height="350" alt="sli-1">
-				<img src="img/sli2.jpg" width="1200" height="350" alt="sli-2">
-				<img src="img/sli3.jpg" width="1200" height="350" alt="sli-3">
+			<!-- <div class="slider">
+
 			</div> -->
+			<div id="slider">
+ 				<img src="img/sli1.jpg" data-src-2x="/public/img/1@2x.jpg" alt="Slide 1">
+ 				<img data-src="img/sli2.jpg" data-src-2x="img/2@2x.jpg" src="" alt="Slide 2">
+ 				<img data-src="img/sli3.jpg" data-src-2x="/public/img/3@2x.jpg" src="" alt="Slide 3">
+			</div>
 			<section class="info">
 				<div class="info-block">
 					<h2>Podziękowanie</h2>
@@ -150,8 +152,8 @@
 
 	</div>
 	<a href="#" class="up"></a>
-	<!-- <script src="js/ideal-image-slider.js"></script>
-	<script>
+	<!-- <script src="js/ideal-image-slider.js"></script> -->
+	<script type="text/javascript">
 	new IdealImageSlider.Slider('#slider');
 	var slider = new IdealImageSlider.Slider({
     selector: '#slider',
@@ -159,7 +161,7 @@
     interval: 4000
 	});
 	slider.start();
-	</script> -->
+	</script>
 	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=0bQkhh704vz4f1We9k-DfSw0lrJp7usq&amp;width=1200&amp;height=300&amp;lang=pl_PL&amp;sourceType=constructor&amp;scroll=true;id=yandex-map"></script>
 
 </body>
