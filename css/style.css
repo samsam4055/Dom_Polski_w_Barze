@@ -25,6 +25,12 @@ a:hover {
     color: #000000;
 }
 
+.contacts a {
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: 6px;
+}
+
 .contacts p {
     font-size: 24px;
     color: #000000;
@@ -34,7 +40,7 @@ a:hover {
 .contacts p:last-of-type {
     font-size: 19px;
     color: #d4213d;
-    margin-top: 8px;
+    margin-top: 20px;
 }
 
 .head-up {
