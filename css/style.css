@@ -593,6 +593,10 @@ h3:hover {
     padding: 16px;
 }
 
+.grid-item img {
+    height: 173px;
+}
+
 @media screen and (max-width: 1024px) {
     .grid .grid-item {
         width:50%;
