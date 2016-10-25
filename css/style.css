@@ -7,6 +7,7 @@ body {
     background-color: #dcdcdc;
     font-family: 'Roboto', 'Arial', sans-serif;
     font-weight: 300;
+    font-size: 16px;
 }
 
 .container {
@@ -294,9 +295,19 @@ h2 {
 }
 
 .news-block:not(:nth-child(4n)) {
+    margin-right: 32px;
+}
+
+.news-block {
     width: 23%;
     min-height: 240px;
-    margin-right: 32px;
+    margin-bottom: 25px;
+}
+
+.news-block h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .contact-us {
@@ -428,7 +439,7 @@ h2 {
 
 .breadcrumbs-block {
 	min-height: 20px;
-	width: 267px;
+	width: 100%;
 	margin-bottom: 5px;
 }
 
@@ -635,4 +646,8 @@ h3:hover {
 .dp-img {
     float: left;
     margin-right: 10px;
+}
+
+.btn-more {
+    text-align: right;
 }
