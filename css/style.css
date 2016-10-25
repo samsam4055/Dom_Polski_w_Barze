@@ -302,6 +302,12 @@ h2 {
     width: 23%;
     min-height: 240px;
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-block p {
+    flex-grow: 1;
 }
 
 .news-block h3 {
