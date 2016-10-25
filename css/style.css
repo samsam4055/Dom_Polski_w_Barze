@@ -114,10 +114,10 @@ h3 {
     color: #dcdcdc;
 }
 
-.main-nav li a:active {
+/*.main-nav li a:active {
 	background-color: #ab1c31;
     color: #b8afaf;
-}
+}*/
 
 .main-nav .menu-about-us {
 	position: relative;
@@ -496,8 +496,9 @@ h2 {
 
 .main-nav .active a,
 .main-nav .active a:active {
-    background-color: #d4213d;
+    /*background-color: #d4213d;*/
     color: #dcdcdc;
+    box-shadow: inset 0 -3px 0 0 #000000;
 }
 
 .drop-menu .active a,
