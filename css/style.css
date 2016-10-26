@@ -293,11 +293,12 @@ h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -676,7 +677,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.event-item a {
+.event-item .partner-links {
     font-size: 18px;
     font-weight: 400;
     text-decoration: underline;
