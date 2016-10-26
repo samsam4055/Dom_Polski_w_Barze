@@ -1,9 +1,15 @@
-var link = document.querySelector(".open-gallery");
-var gall = document.querySelector(".hidden-gallery");
-var btn = document.querySelector(".for-open");
+var link = document.querySelectorAll('.open-gallery');
+var gall = document.querySelectorAll('.hidden-gallery');
+var btn = document.querySelectorAll('.for-open');
 
-link.addEventListener("click", function(event) {
+link[1].addEventListener('click', function(event) {
 	event.preventDefault();
-	gall.classList.add("hidden-gallery-show");
-    btn.classList.add("hidden-btn");
+	gall[1].classList.add('hidden-gallery-show');
+    btn[1].classList.add('hidden-btn');
+});
+
+link[0].addEventListener('click', function(event) {
+	event.preventDefault();
+	gall[0].classList.add('hidden-gallery-show');
+    btn[0].classList.add('hidden-btn');
 });
