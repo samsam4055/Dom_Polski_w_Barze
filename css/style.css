@@ -26,6 +26,10 @@ a:hover {
     color: #000000;
 }
 
+h3 {
+    font-weight: 300;
+}
+
 .contacts a {
 	display: inline-block;
 	margin-bottom: 10px;
@@ -110,10 +114,10 @@ a:hover {
     color: #dcdcdc;
 }
 
-.main-nav li a:active {
+/*.main-nav li a:active {
 	background-color: #ab1c31;
     color: #b8afaf;
-}
+}*/
 
 .main-nav .menu-about-us {
 	position: relative;
@@ -271,6 +275,10 @@ hr {
 .info-block {
     width: 48%;
     line-height: 30px;
+}
+
+.info-block h3 {
+    color: #000000;
 }
 
 h2 {
@@ -486,19 +494,11 @@ h2 {
     min-height: 240px;
 }
 
-h3 {
-    font-weight: 300;
-    color: #d4213d;
-}
-
-h3:hover {
-    color: #000000;
-}
-
 .main-nav .active a,
 .main-nav .active a:active {
-    background-color: #d4213d;
+    /*background-color: #d4213d;*/
     color: #dcdcdc;
+    box-shadow: inset 0 -3px 0 0 #000000;
 }
 
 .drop-menu .active a,
@@ -656,4 +656,28 @@ h3:hover {
 
 .btn-more {
     text-align: right;
+}
+
+.partners {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.partners p {
+    margin-bottom: 0;
+}
+
+.partners a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.event-item {
+    margin-bottom: 20px;
+}
+
+.event-item a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
 }
