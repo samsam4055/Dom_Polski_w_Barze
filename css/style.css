@@ -681,3 +681,10 @@ h2 {
     font-weight: 400;
     text-decoration: underline;
 }
+
+.clearfix::after {
+ content: "";
+ display: table;
+ clear: both;
+ margin-bottom: 20px;
+}
