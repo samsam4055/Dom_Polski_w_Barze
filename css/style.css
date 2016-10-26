@@ -666,3 +666,8 @@ h2 {
 .partners p {
     margin-bottom: 0;
 }
+
+.partners a {
+    font-size: 16px;
+    font-weight: 400;
+}
