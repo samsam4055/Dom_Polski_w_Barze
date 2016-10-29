@@ -676,10 +676,15 @@ h2 {
     margin-bottom: 20px;
 }
 
-.event-item .partner-links {
+.partner-links {
     font-size: 18px;
     font-weight: 400;
     text-decoration: underline;
+}
+
+.partner-links h3 {
+    text-decoration: none;
+    font-weight: 300;
 }
 
 .clearfix::after {
