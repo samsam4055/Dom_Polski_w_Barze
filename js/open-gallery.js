@@ -13,3 +13,15 @@ link[0].addEventListener('click', function(event) {
 	gall[0].classList.add('hidden-gallery-show');
     btn[0].classList.add('hidden-btn');
 });
+
+// for (var i = 0; i < links.length; i++) {
+// 	var link = links[i];
+// 	var btn = links[i].parentNode;
+// 	var gall = btn.nextSibling;
+// 	link.addEventListener('click', function(event) {
+// 		event.preventDefault();
+// 		btn.classList.add('hidden-btn');
+// 		gall.classList.add('hidden-gallery-show');
+//
+// 	});
+// }
