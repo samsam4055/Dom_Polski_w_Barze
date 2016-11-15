@@ -310,7 +310,7 @@ h2 {
 .news-block {
     width: 23%;
     min-height: 240px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -344,7 +344,6 @@ h2 {
 .main-adress {
     min-height: 140px;
     padding-top: 10px;
-    line-height: 30px;
     padding-left: 20px;
 }
 
@@ -414,7 +413,7 @@ h2 {
 
 .adress .main-adress {
     min-height: 140px;
-    line-height: 30px;
+    line-height: 16px;
     padding-left: 20px;
 }
 
