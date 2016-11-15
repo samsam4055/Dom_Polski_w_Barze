@@ -319,11 +319,11 @@ h2 {
     flex-grow: 1;
 }
 
-.news-block h3 {
+/*.news-block h3 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+}*/
 
 .contact-us {
     width: 100%;
