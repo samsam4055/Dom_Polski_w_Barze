@@ -661,6 +661,12 @@ h2 {
     margin-right: 10px;
 }
 
+.dp-table {
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 .btn-more {
     text-align: right;
 }
