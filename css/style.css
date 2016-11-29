@@ -115,11 +115,6 @@ h3 {
     color: #dcdcdc;
 }
 
-/*.main-nav li a:active {
-	background-color: #ab1c31;
-    color: #b8afaf;
-}*/
-
 .main-nav .menu-about-us {
 	position: relative;
 }
@@ -330,19 +325,20 @@ h2 {
     width: 23%;
     min-height: 240px;
     margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .news-block p {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
 }
-
-/*.news-block h3 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}*/
 
 .contact-us {
     width: 100%;
@@ -521,26 +517,6 @@ h2 {
     font-weight: 400;
 }
 
-/*.gallery {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.gallery-item {
-    margin-right: 37px;
-    margin-bottom: 18px;
-    margin-top: 18px;
-}
-
-.gallery-item:nth-child(5n) {
-    margin-right: 1px;
-}
-
-.gallery-item:nth-child(5n+1) {
-    margin-left: 1px;
-}*/
-
 .gallery label[for] {
     cursor: pointer;
 }
@@ -640,9 +616,13 @@ h2 {
 }
 
 .hidden-gallery-show {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-content: flex-start;
-    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .hidden-btn {
