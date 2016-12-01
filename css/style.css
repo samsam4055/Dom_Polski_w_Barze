@@ -111,8 +111,10 @@ h3 {
 }
 
 .main-nav li:hover > a {
-	background-color: #d4213d;
-    color: #dcdcdc;
+	/*background-color: #d4213d;*/
+  color: #dcdcdc;
+  box-shadow: inset 0 -3px 0 0 #000000;
+  transition: box-shadow 0.3s linear;
 }
 
 .main-nav .menu-about-us {
@@ -124,7 +126,7 @@ h3 {
 	position: absolute;
 	top: 60px;
 	left: 0;
-	background-color: #d4213d;
+	background-color: #ff0000;
 	color: #dcdcdc;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     z-index: 10;
@@ -160,13 +162,13 @@ h3 {
     box-shadow: inset 0 -3px 0 0 #000000;
 }
 
-.main-nav a:active {
+/*.main-nav a:active {
     color: #dcdcdc;
     box-shadow: inset 0 -3px 1px 0 rgba(0, 0, 0, 0.3);
-}
+}*/
 
 .main-nav .drop-menu a:active {
-	background-color: #ab1c31;
+	/*background-color: #ab1c31;*/
     color: #b8afaf;
     box-shadow: none;
 }
@@ -175,7 +177,7 @@ h3 {
 .drop-menu .active > a:active {
 	color: #ffffff;
 	background-color: #ff0000;
-    box-shadow: none;
+  box-shadow: inset 0 -3px 0 0 #000000;
 }
 
 .search-block {
@@ -208,7 +210,8 @@ h3 {
 }
 
 .search:hover::before {
-	background-color: #d4213d;
+	/*background-color: #d4213d;*/
+  cursor: pointer;
 }
 
 .map {
@@ -696,4 +699,9 @@ h2 {
  display: table;
  clear: both;
  margin-bottom: 20px;
+}
+
+blockquote  {
+  text-align: right;
+  font-style: italic;
 }
