@@ -152,7 +152,7 @@ h3 {
 }
 
 .drop-menu li:hover a {
-	color: #ffffff;
+	color: #dcdcdc;
 	background-color: #ff0000;
 }
 
@@ -167,11 +167,11 @@ h3 {
     box-shadow: inset 0 -3px 1px 0 rgba(0, 0, 0, 0.3);
 }*/
 
-.main-nav .drop-menu a:active {
+/*.main-nav .drop-menu a:active {
 	/*background-color: #ab1c31;*/
     color: #b8afaf;
-    box-shadow: none;
-}
+    /*box-shadow: none;*/
+}*/
 
 .drop-menu .active > a,
 .drop-menu .active > a:active {
@@ -701,7 +701,11 @@ h2 {
  margin-bottom: 20px;
 }
 
-blockquote  {
+blockquote {
   text-align: right;
   font-style: italic;
+}
+
+cite {
+  text-align: right;
 }
