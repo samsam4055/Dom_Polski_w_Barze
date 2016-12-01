@@ -705,3 +705,7 @@ blockquote  {
   text-align: right;
   font-style: italic;
 }
+
+cite {
+  text-align: right;
+}
