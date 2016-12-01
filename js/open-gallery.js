@@ -5,14 +5,17 @@ var btn = document.querySelectorAll('.for-open');
 link[0].addEventListener('click', function(event) {
 	event.preventDefault();
 	gall[0].classList.add('hidden-gallery-show');
+	btn[0].classList.add('hidden-btn');
 });
 
 link[1].addEventListener('click', function(event) {
 	event.preventDefault();
 	gall[1].classList.add('hidden-gallery-show');
+	btn[1].classList.add('hidden-btn');
 });
 
 link[2].addEventListener('click', function(event) {
 	event.preventDefault();
 	gall[2].classList.add('hidden-gallery-show');
+	btn[2].classList.add('hidden-btn');
 });
