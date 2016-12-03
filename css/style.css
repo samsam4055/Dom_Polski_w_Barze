@@ -162,17 +162,6 @@ h3 {
     box-shadow: inset 0 -3px 0 0 #000000;
 }
 
-/*.main-nav a:active {
-    color: #dcdcdc;
-    box-shadow: inset 0 -3px 1px 0 rgba(0, 0, 0, 0.3);
-}*/
-
-/*.main-nav .drop-menu a:active {
-	/*background-color: #ab1c31;*/
-    color: #b8afaf;
-    /*box-shadow: none;*/
-}*/
-
 .drop-menu .active > a,
 .drop-menu .active > a:active {
 	color: #ffffff;
@@ -210,7 +199,6 @@ h3 {
 }
 
 .search:hover::before {
-	/*background-color: #d4213d;*/
   cursor: pointer;
 }
 
@@ -596,7 +584,7 @@ h2 {
     height: 173px;
 }
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
     .grid .grid-item {
         width:50%;
     }
@@ -606,7 +594,7 @@ h2 {
     .grid .grid-item {
         width:100%;
     }
-}
+}*/
 
 .gallery .grid img {
     max-width: 100%;
@@ -642,20 +630,7 @@ h2 {
 .dp-img {
     float: left;
     margin-right: 10px;
-    /*-webkit-transition-property: transform, box-shadow;
-    -webkit-transition-duration: 0.4s;
-    -webkit-transition-timing-function: ease-out;
-    transition-property: transform, box-shadow;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-out;*/
 }
-
-/*.dp-img:hover {
-    -ms-transform: scale(1.5) translateX(90px);
-    -webkit-transform: scale(1.5) translateX(90px);
-    transform: scale(1.5) translateX(90px);
-    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.4);
-}*/
 
 .dp-table {
     float: right;
