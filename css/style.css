@@ -684,3 +684,13 @@ blockquote {
 cite {
   text-align: right;
 }
+
+.p-fat {
+  font-weight: 400;
+}
+
+.error {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
