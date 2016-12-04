@@ -638,6 +638,11 @@ h2 {
     margin-top: 10px;
 }
 
+.dp-table:hover {
+  transform: translateX(-200px) scale(2);
+  transition: transform 0.3s linear;
+}
+
 .btn-more {
     text-align: right;
 }
