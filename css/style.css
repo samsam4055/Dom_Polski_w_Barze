@@ -114,6 +114,7 @@ h3 {
 	/*background-color: #d4213d;*/
   color: #dcdcdc;
   box-shadow: inset 0 -3px 0 0 #000000;
+  -webkit-transition: box-shadow 0.3s linear;
   transition: box-shadow 0.3s linear;
 }
 
@@ -636,11 +637,15 @@ h2 {
     float: right;
     margin-left: 10px;
     margin-top: 10px;
+    -webkit-transition: box-shadow 0.4s linear, -webkit-transform 0.4s linear;
+    transition: box-shadow 0.4s linear, -webkit-transform 0.4s linear;
     transition: transform 0.4s linear, box-shadow 0.4s linear;
+    transition: transform 0.4s linear, box-shadow 0.4s linear, -webkit-transform 0.4s linear;
 }
 
 .dp-table:hover {
-  transform: translateX(-105px) scale(2);
+  -webkit-transform: translateX(-105px) scale(2);
+          transform: translateX(-105px) scale(2);
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -714,18 +719,24 @@ cite {
 
 .reward-image {
 	box-shadow: 0 2px 8px rgba(0,0,0,.25);
+	-webkit-transition: box-shadow 0.4s linear, -webkit-transform 0.4s linear;
+	transition: box-shadow 0.4s linear, -webkit-transform 0.4s linear;
 	transition: transform 0.4s linear, box-shadow 0.4s linear;
+	transition: transform 0.4s linear, box-shadow 0.4s linear, -webkit-transform 0.4s linear;
 }
 
 .reward-block:hover .reward-image {
-	transform: scale(2.5) translateY(-15px);
+	-webkit-transform: scale(2.5) translateY(-15px);
+	        transform: scale(2.5) translateY(-15px);
 	box-shadow: 0 4px 15px rgba(0,0,0,.4);
 }
 
 .reward-block:nth-child(7n+1):hover .reward-image {
-	transform: scale(2.5) translateX(20px) translateY(-15px);
+	-webkit-transform: scale(2.5) translateX(20px) translateY(-15px);
+	        transform: scale(2.5) translateX(20px) translateY(-15px);
 }
 
 .reward-block:nth-child(7n):hover .reward-image {
-	transform: scale(2.5) translateX(-20px) translateY(-15px);
+	-webkit-transform: scale(2.5) translateX(-20px) translateY(-15px);
+	        transform: scale(2.5) translateX(-20px) translateY(-15px);
 }
