@@ -636,11 +636,11 @@ h2 {
     float: right;
     margin-left: 10px;
     margin-top: 10px;
+    transition: transform 0.4s linear;
 }
 
 .dp-table:hover {
-  transform: translateX(-200px) scale(2);
-  transition: transform 0.3s linear;
+  transform: translateX(-150px) scale(2);
 }
 
 .btn-more {
