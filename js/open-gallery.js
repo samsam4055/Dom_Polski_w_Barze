@@ -19,3 +19,9 @@ link[2].addEventListener('click', function(event) {
 	gall[2].classList.add('hidden-gallery-show');
 	btn[2].classList.add('hidden-btn');
 });
+
+link[3].addEventListener('click', function(event) {
+	event.preventDefault();
+	gall[3].classList.add('hidden-gallery-show');
+	btn[3].classList.add('hidden-btn');
+});
