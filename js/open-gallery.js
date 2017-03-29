@@ -31,3 +31,15 @@ link[4].addEventListener('click', function(event) {
 	gall[4].classList.add('hidden-gallery-show');
 	btn[4].classList.add('hidden-btn');
 });
+
+link[5].addEventListener('click', function(event) {
+	event.preventDefault();
+	gall[5].classList.add('hidden-gallery-show');
+	btn[5].classList.add('hidden-btn');
+});
+
+link[6].addEventListener('click', function(event) {
+	event.preventDefault();
+	gall[6].classList.add('hidden-gallery-show');
+	btn[6].classList.add('hidden-btn');
+});
