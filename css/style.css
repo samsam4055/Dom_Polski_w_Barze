@@ -130,6 +130,7 @@ h3 {
 	background-color: #ff0000;
 	color: #dcdcdc;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    border-top: 2px solid #000000;
     z-index: 10;
 }
 
@@ -316,7 +317,7 @@ h2 {
 .news-block {
     width: 23%;
     border-top: 5px solid #ff0000;
-    box-shadow: 0 -5px 0 0 #ffffff; 
+    box-shadow: 0 -5px 0 0 #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
