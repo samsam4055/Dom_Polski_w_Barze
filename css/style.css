@@ -808,3 +808,22 @@ body,
 	-ms-animation: snow 20s linear infinite;
 	animation: snow 20s linear infinite;
 }*/
+
+/*.fotorama__stage {
+    width: 960px;
+    margin: 0 auto;
+}*/
+
+
+/*Галерея*/
+
+.fotorama-container {
+    margin-top: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.2) 110px, rgba(0, 0, 0, 0.2) 1090px, rgba(0, 0, 0, 0) 100%);
+    border-top: 1px solid #ff0000;
+}
+
+.fotorama {
+    width: 960px;
+    margin: 0 auto;
+}
