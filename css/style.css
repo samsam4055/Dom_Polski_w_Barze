@@ -818,6 +818,7 @@ body,
 /*Галерея новая*/
 
 .fotorama-container {
+  height: 708px;
   margin-top: 16px;
   background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.2) 110px, rgba(0, 0, 0, 0.2) 1090px, rgba(0, 0, 0, 0) 100%);
   border-top: 1px solid #ff0000;
