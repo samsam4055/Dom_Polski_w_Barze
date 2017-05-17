@@ -834,6 +834,7 @@ body,
 
 .gallery {
   display: flex;
+  justify-content: flex-start;
   text-align: center;
   overflow: auto;
 }
