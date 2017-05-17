@@ -6,8 +6,11 @@
 	<title>Dom Polski w Barze</title>
 	<link rel="shortcut icon" href="../img/dp-logo-min.ico" type="image/x-icon">
 	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/fotorama.css">
 	<link rel="stylesheet" href="../css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/fotorama.js"></script>
 </head>
 
 <body>
@@ -21,7 +24,7 @@
 				</div>
 				<div class="contacts">
 					<a href="#"><img src="../img/flag-pl.png" width="25" alt="flag-pl"></a>
-					<a href="#"><img src="../img/flag-ua.png" width="25" alt="flag-ua"></a>
+					<a href="#"><img src="../img/flag-ua.png" width="25" alt="lag-ua"></a>
 					<p>+38 097 444 55 29</p>
 					<p>+38 04341 2 35 35</p>
 					<p>info@bardompolski.org</p>
@@ -40,43 +43,46 @@
 						</ul>
 					</li>
 					<li><a href="../news.html">Aktualności</a></li>
-					<li class="active"><a href="../events.html" class="active">Wydarzenia</a></li>
-					<li><a href="../media.html">Media</a></li>
+					<li><a href="../events.html">Wydarzenia</a></li>
+					<li class="active"><a href="../media.html">Media</a></li>
 					<li><a href="../links.html">Linki</a></li>
 					<li><a href="../contacts.html">Kontakty</a></li>
 				</ul>
 				<div class="search-block">
 					<form class="search" action="#" method="get">
-						<input id="search" type="search" name="search" placeholder="Szukaj">
-
+						<input id="search" type="search" name="search"  placeholder="Szukaj">
 					</form>
 				</div>
 			</nav>
 		</header>
 
 		<main>
-			<section class="event-item">
-				<h2>Chór Kameralny „Cantica  Anima” w Warszawie</h2>
-				<hr>
-				<div class="breadcrumbs-block">
-					<ul class="breadcrumbs">
-						<li><a href="../index.html">Główna</a></li>
-						<li><a href="../events.html">Wydarzenia</a></li>
-						<li>Chór Kameralny „Cantica  Anima” w Warszawie</li>
-					</ul>
-        </div>
-        <div class="clearfix">
-      		<p> <img src="../img/event-8.jpg" width="540" height="340" alt="Chór Kameralny „Cantica  Anima” w Warszawie" class="dp-img">W dniu 21 grudnia Chór Kameralny „Cantica  Anima” miał okazję występować w Domu Polonii w Warszawie.</p>
-      		<p>Na spotkaniu wigilijnym, w którym uczestniczyli zarówno polscy parlamentarzyści jak i duchowieństwo, pracownicy Domu Polonii, dyrektorzy Domów Polskich i prezesi organizacji polonijnych z wielu państw świata, chór wykonał tradycyjne polskie kolędy i pastorałki.</p>
-      		<p>W czasie pobytu w Warszawie zwiedziliśmy między innymi budynek Senatu RP oraz podziwialiśmy Warszawę, która szczególnie pięknie wygląda w okresie Świąt Bożego Narodzenia.</p>
-        </div>
-				<div class="partner-links">
-					<a href="../media/gallery-8.html">Galeria</a><br>
+			<h2>„Cantica Anima” w Sycowie na koncercie harytatywnym „Rodacy - Rodakom” 28.01.2017</h2>
+			<hr>
+			<div class="breadcrumbs-block">
+				<ul class="breadcrumbs">
+					<li><a href="../index.html">Główna</a></li>
+					<li><a href="../media.html">Media</a></li>
+					<li>„Cantica Anima” w Sycowie na koncercie harytatywnym „Rodacy - Rodakom” 28.01.2017</li>
+				</ul>
+			</div>
+			<section class="fotorama-container">
+				<div class="fotorama" data-nav="thumbs" data-transition="crossfade">
+					<img src="../img/gal/event-9/01.jpg">
+					<img src="../img/gal/event-9/02.jpg">
+					<img src="../img/gal/event-9/03.jpg">
+					<img src="../img/gal/event-9/04.jpg">
+					<img src="../img/gal/event-9/05.jpg">
+					<img src="../img/gal/event-9/06.jpg">
+					<img src="../img/gal/event-9/07.jpg">
+					<img src="../img/gal/event-9/08.jpg">
+					<img src="../img/gal/event-9/09.jpg">
+					<img src="../img/gal/event-9/10.jpg">
+					<img src="../img/gal/event-9/11.jpg">
+					<img src="../img/gal/event-9/12.jpg">
+					<img src="../img/gal/event-9/13.jpg">
 				</div>
 			</section>
-			<div class="map" id="yandex-map">
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=0bQkhh704vz4f1We9k-DfSw0lrJp7usq&amp;width=1200&amp;height=300&amp;lang=pl_PL&amp;sourceType=constructor&amp;scroll=true;id=yandex-map"></script>
-			</div>
 		</main>
 
 		<footer>
@@ -99,8 +105,8 @@
 				<span>Developed by Frigoris &amp; comina © 2016</span>
 			</div>
 		</footer>
+
 	</div>
-	<a href="#" class="up"></a>
 </body>
 
 </html>
