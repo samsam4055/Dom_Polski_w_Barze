@@ -1,3 +1,5 @@
+// search
+
 var lastResFind = "";
 var copy_page = "";
 function TrimStr(s) {
@@ -33,3 +35,21 @@ function FindOnPage(inputId) {
     lastResFind = textToFind;
     window.location = '#' + textToFind;
 }
+
+// scrollup
+
+$(document).ready(function(){
+  $(window).scroll(function () {
+      if ($(this).scrollTop() > 300) {
+          $('.up, .alert').fadeIn();
+      } else {
+          $('.up, .alert').fadeOut();
+      }
+  });
+  $('.up').click(function () {
+      $('body,html').animate({
+          scrollTop: 0
+      }, 700);
+      return false;
+  });
+});

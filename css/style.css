@@ -483,10 +483,11 @@ h2 {
 }
 
 .up {
-    text-decoration: none;
     position: fixed;
     bottom: 10px;
     right: 10px;
+    display: none;
+    text-decoration: none;
     overflow: hidden;
     width: 51px;
     height: 51px;
