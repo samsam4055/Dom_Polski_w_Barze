@@ -172,12 +172,12 @@ h3 {
 }
 
 .search-block {
-	padding: 10px 50px 10px 10px;
+	padding: 10px;
 }
 
-.search {
+/*.search {
 	position: relative;
-}
+}*/
 
 .main-nav input[type="search"] {
 	height: 40px;
@@ -190,7 +190,7 @@ h3 {
 	outline: none;
 }
 
-.search::before {
+/*.search::before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -198,7 +198,7 @@ h3 {
 	width: 40px;
     height: 40px;
 	background: url("../img/lupa.svg") no-repeat;
-}
+}*/
 
 .search:hover::before {
   cursor: pointer;
@@ -850,4 +850,35 @@ body,
   height: 173px;
   max-width: 100%;
   box-shadow: 0 2px 8px rgba(0,0,0,.25);
+}
+
+/*Поиск*/
+
+.search {
+  font-size: 0;
+}
+
+.search input {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.search .search-btn {
+  width: 40px;
+  height: 40px;
+  color: transparent;
+  border: none;
+  background: transparent url("../img/lupa.svg") no-repeat;
+}
+
+.search-btn:hover {
+  background-color: #dcdcdc;
+}
+
+.search-btn:active {
+  background-color: #cb0404;
+}
+
+.search-btn:focus {
+  outline: 2px solid #cb0404;
 }
