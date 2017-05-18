@@ -175,10 +175,6 @@ h3 {
 	padding: 10px;
 }
 
-/*.search {
-	position: relative;
-}*/
-
 .main-nav input[type="search"] {
 	height: 40px;
     border: none;
@@ -189,16 +185,6 @@ h3 {
 .search input[type=search]:focus {
 	outline: none;
 }
-
-/*.search::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: -40px;
-	width: 40px;
-    height: 40px;
-	background: url("../img/lupa.svg") no-repeat;
-}*/
 
 .search:hover::before {
   cursor: pointer;
@@ -546,119 +532,6 @@ h2 {
     font-weight: 400;
 }
 
-.gallery label[for] {
-    cursor: pointer;
-}
-
-.gallery input[type="checkbox"] {
-    display: none;
-}
-
-.gallery .lightbox {
-    z-index: 1;
-    min-height: 100%;
-    overflow: auto;
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    -webkit-transition: -webkit-transform .5s ease-out;
-    transition: -webkit-transform .5s ease-out;
-    transition: transform .5s ease-out;
-    transition: transform .5s ease-out, -webkit-transform .5s ease-out;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.gallery .lightbox img {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    max-width: 96%;
-    max-height: 96%;
-    -webkit-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
-    box-shadow: 0 2px 8px rgba(0,0,0,.25);
-}
-
-.gallery input[type="checkbox"]:checked+.lightbox {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-}
-
-.gallery input[type="checkbox"]:checked ~ .grid {
-    opacity: .125;
-}
-
-.gallery .grid {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-line-pack: start;
-        align-content: flex-start;
-    z-index: 0;
-    height: 100%;
-    padding: 16px;
-    overflow: auto;
-    text-align: center;
-    -webkit-transition: opacity .75s;
-    transition: opacity .75s;
-    position: relative;
-    width: 100%;
-}
-
-.gallery .grid .grid-item {
-    display: inline-block;
-    width: 25%;
-    padding: 16px;
-}
-
-.grid-item img {
-    height: 173px;
-}
-
-/*@media screen and (max-width: 1024px) {
-    .grid .grid-item {
-        width:50%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .grid .grid-item {
-        width:100%;
-    }
-}*/
-
-.gallery .grid img {
-    max-width: 100%;
-    max-height: 100%;
-    box-shadow: 0 2px 8px rgba(0,0,0,.25);
-}
-
-.hidden-gallery {
-    display: none;
-}
-
-.hidden-gallery-show {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: start;
-        align-content: flex-start;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        width: 100%;
-}
-
-.hidden-btn {
-    display: none;
-}
-
 .for-open {
     width: 100%;
     text-align: right;
@@ -779,7 +652,7 @@ cite {
 	        transform: scale(2.5) translateX(-20px) translateY(-15px);
 }
 
-/*Кадры анимации*/
+/*Кадры анимации Снег*/
 /*@keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
@@ -809,24 +682,15 @@ body,
 	animation: snow 20s linear infinite;
 }*/
 
-/*.fotorama__stage {
-    width: 960px;
-    margin: 0 auto;
-}*/
-
-
-/*Галерея новая*/
+/*Галерея*/
 
 .fotorama-container {
-  height: 708px;
+  display: flex;
+  justify-content: center;
+  min-height: 480px;
   margin-top: 16px;
   background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.2) 110px, rgba(0, 0, 0, 0.2) 1090px, rgba(0, 0, 0, 0) 100%);
   border-top: 1px solid #ff0000;
-}
-
-.fotorama {
-  width: 960px;
-  margin: 0 auto;
 }
 
 .main-gallery {
