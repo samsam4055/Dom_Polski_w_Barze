@@ -6,6 +6,7 @@
 	<title>Dom Polski w Barze</title>
 	<link rel="shortcut icon" href="../img/dp-logo-min.ico" type="image/x-icon">
 	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/fotorama.css">
 	<link rel="stylesheet" href="../css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 </head>
@@ -48,7 +49,7 @@
 				<div class="search-block">
 					<form class="search" action="#" method="get">
 						<input id="search" type="search" name="search" placeholder="Szukaj">
-
+						<input class="search-btn" type="button" onclick="javascript: FindOnPage('search'); return false;" value="Szukaj">
 					</form>
 				</div>
 			</nav>
@@ -103,69 +104,16 @@
 			</section>
 			<div class="us-gallery">
 				<h3>Galeria</h3>
-				<hr>
-				<section class="gallery-block">
-				  <div class="gallery">
-				    <input type="checkbox" id="pic-1"/>
-				    <label for="pic-1" class="lightbox">
-				      <img src="../img/us-gal/aksamitki/01.jpg" alt="picture">
-				    </label>
-				    <input type="checkbox" id="pic-2"/>
-				    <label for="pic-2" class="lightbox">
-				      <img src="../img/us-gal/aksamitki/02.jpg" alt="picture">
-				    </label>
-				    <input type="checkbox" id="pic-3"/>
-				    <label for="pic-3" class="lightbox">
-				      <img src="../img/us-gal/aksamitki/03.jpg" alt="picture">
-				    </label>
-				    <input type="checkbox" id="pic-4"/>
-				    <label for="pic-4" class="lightbox">
-				      <img src="../img/us-gal/aksamitki/04.jpg" alt="picture">
-				    </label>
-				    <input type="checkbox" id="pic-5"/>
-				    <label for="pic-5" class="lightbox">
-				      <img src="../img/us-gal/aksamitki/05.jpg" alt="picture">
-				    </label>
-				    <input type="checkbox" id="pic-6"/>
-				    <label for="pic-6" class="lightbox">
-				      <img src="../img/us-gal/aksamitki/06.jpg" alt="picture">
-				    </label>
-				    <input type="checkbox" id="pic-7"/>
-				    <label for="pic-7" class="lightbox">
-				      <img src="../img/us-gal/aksamitki/07.jpg" alt="picture">
-				    </label>
-
-				    <div class="grid">
-				      <label for="pic-1" class="grid-item">
-				        <img src="../img/us-gal/aksamitki/01.jpg">
-				      </label>
-				      <label for="pic-2" class="grid-item">
-				        <img src="../img/us-gal/aksamitki/02.jpg">
-				      </label>
-				      <label for="pic-3" class="grid-item">
-				        <img src="../img/us-gal/aksamitki/03.jpg">
-				      </label>
-				      <label for="pic-4" class="grid-item">
-				        <img src="../img/us-gal/aksamitki/04.jpg">
-				      </label>
-
-				      <div class="for-open">
-				        <a href="#" class="open-gallery">zobacz więcej</a>
-				      </div>
-
-				      <div class="hidden-gallery">
-								<label for="pic-5" class="grid-item">
-					        <img src="../img/us-gal/aksamitki/05.jpg">
-					      </label>
-					      <label for="pic-6" class="grid-item">
-					        <img src="../img/us-gal/aksamitki/06.jpg">
-					      </label>
-					      <label for="pic-7" class="grid-item">
-					        <img src="../img/us-gal/aksamitki/07.jpg">
-					      </label>
-				      </div>
-				    </div>
-				  </div>
+				<section class="fotorama-container">
+					<div class="fotorama" data-nav="thumbs" data-transition="crossfade">
+						<img src="../img/us-gal/aksamitki/01.jpg">
+						<img src="../img/us-gal/aksamitki/02.jpg">
+						<img src="../img/us-gal/aksamitki/03.jpg">
+						<img src="../img/us-gal/aksamitki/04.jpg">
+						<img src="../img/us-gal/aksamitki/05.jpg">
+						<img src="../img/us-gal/aksamitki/06.jpg">
+						<img src="../img/us-gal/aksamitki/07.jpg">
+					</div>
 				</section>
 			</div>
 			<div class="map" id="yandex-map">
@@ -195,7 +143,9 @@
 		</footer>
 	</div>
 	<a href="#" class="up"></a>
-	<script type="text/javascript" src="../js/open-gallery.js"></script>
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/fotorama.js"></script>
+	<script type="text/javascript" src="../js/search-up.js"></script>
 </body>
 
 </html>
