@@ -16,7 +16,6 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #dcdcdc;
 }
 
 a {
@@ -696,8 +695,7 @@ cite {
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
-body,
-.container {
+body {
 	background-image: url("../img/snow.png"), url("../img/snow3.png"), url("../img/snow2.png");
 	-webkit-animation: snow 20s linear infinite;
 	-moz-animation: snow 20s linear infinite;
