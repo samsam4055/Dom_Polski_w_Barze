@@ -38,20 +38,25 @@ h3 {
     text-align: right;
 }
 
-.contacts a {
+.contacts .contacts-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts .contacts-icons a {
     display: inline-block;
     margin-bottom: 10px;
     margin-left: 6px;
 }
 
-.contacts a:first-child,
-.contacts a:nth-child(2) {
+.contacts .contacts-social a,
+.contacts .contacts-social a {
   text-align: left;
   filter: grayscale(1);
 }
 
-.contacts a:first-child:hover,
-.contacts a:nth-child(2):hover {
+.contacts .contacts-social a:hover,
+.contacts .contacts-social a:hover {
   filter: grayscale(0);
 }
 
