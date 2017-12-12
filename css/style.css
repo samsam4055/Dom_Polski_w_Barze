@@ -16,7 +16,6 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #dcdcdc;
 }
 
 a {
@@ -32,10 +31,33 @@ h3 {
     font-weight: 300;
 }
 
-.contacts a {
+.contacts {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.contacts .contacts-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts .contacts-icons a {
     display: inline-block;
     margin-bottom: 10px;
     margin-left: 6px;
+}
+
+.contacts .contacts-social a,
+.contacts .contacts-social a {
+  text-align: left;
+  filter: grayscale(1);
+}
+
+.contacts .contacts-social a:hover,
+.contacts .contacts-social a:hover {
+  filter: grayscale(0);
 }
 
 .contacts p {
@@ -58,13 +80,6 @@ h3 {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-}
-
-.contacts {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 20px;
-    text-align: right;
 }
 
 .logo {
@@ -606,6 +621,10 @@ h2 {
     font-weight: 400;
 }
 
+.partner-links iframe {
+  display: block;
+}
+
 .partner-links h3 {
     font-weight: 300;
 }
@@ -676,7 +695,7 @@ cite {
     transform: scale(2.5) translateX(-20px) translateY(-15px);
 }
 /*Кадры анимации Снег*/
-/*@keyframes snow {
+@keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
@@ -696,14 +715,13 @@ cite {
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
 
-body,
-.container {
+body {
 	background-image: url("../img/snow.png"), url("../img/snow3.png"), url("../img/snow2.png");
 	-webkit-animation: snow 20s linear infinite;
 	-moz-animation: snow 20s linear infinite;
 	-ms-animation: snow 20s linear infinite;
 	animation: snow 20s linear infinite;
-}*/
+}
 /*Галерея*/
 
 .fotorama-container {
