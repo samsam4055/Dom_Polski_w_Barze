@@ -694,7 +694,7 @@ cite {
     -webkit-transform: scale(2.5) translateX(-20px) translateY(-15px);
     transform: scale(2.5) translateX(-20px) translateY(-15px);
 }
-/*Кадры анимации Снег*/
+/*Кадры анимации Снег
 @keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
@@ -720,7 +720,7 @@ body {
 	-webkit-animation: snow 20s linear infinite;
 	-moz-animation: snow 20s linear infinite;
 	-ms-animation: snow 20s linear infinite;
-	animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite; */
 }
 /*Галерея*/
 
