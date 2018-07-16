@@ -134,7 +134,7 @@ a {
 // Создаем список страниц в корневой папке доступных для редактирования
 
 
-$filelist1 = glob('*.html');
+$filelist1 = glob('*.php');
 
 //$filelist1 = glob("*.html");
 $ddd=0;
@@ -167,9 +167,23 @@ echo('</select>
 <a href="admin.php?mode=5">HTML</a>
 <a href="admin.php?mode=8">CSS и JS</a>
 <a href="admin.php?mode=11">Copy</a>
-<a href="admin.php?mode=12">Rename</a>
+
 <a href="index.html" target="_blank">На сайт</a>
 <a href="admin.php">Помощь</a>
+<a href="admin.php?mode=12">Rename</a>
+  
+
+
+ <FORM id="myform" method= "POST" action="admin.php?mode=11">
+<p>Страница, которую копируем: '); echo ($pagename); echo('</p>
+<p>Введите новое имя страницы в формате ***.html</p>
+ 
+<INPUT name="rennn" id="rennn" type="text">
+<BR><BR>
+
+<INPUT type="submit" value="КОПИРОВАТЬ"> 
+</FORM>
+  
 </div>
 ');
 
@@ -226,7 +240,7 @@ if($_GET['mode']=='7'){
 // копирование выбраной страницы в copy.html
 if($_GET['mode']=='11'){
 		$file = $pagename;
-		$newfile = "copy.html";
+		$newfile = $_POST['rennn'];
 
 if (!copy($file, $newfile)) {
     echo "не удалось скопировать $file...\n";
@@ -237,14 +251,15 @@ if (!copy($file, $newfile)) {
 //******************************************************************************************
 
 
-
+//$renamePage = $_GET['rennn'];
+/* $renamePage = $_POST['rennn']; */
 
 // переименование copy.html  в 
-if($_GET['mode']=='12'){
+/* if($_GET['mode']=='12'){
 		
-rename("copy.html", "noncopy.html");
+rename("copy.html", $renamePage);
 
-};
+}; */
 
 
 //******************************************************************************************
@@ -395,7 +410,7 @@ if($_GET['mode']=='10'){
 //******************************************************************************************
 // Помощь
 if(!isset($_GET['mode'])){
-	echo('<div id="help"><p><br><h2>admin (версия 0.1)</h2><p>Данная CMS состоит всего из одного файла admin.php и предназначена для управления уже готовыми лэндингами, состоящими из HTML страницы, и подключенных к ней CSS файлов.<p>	С помощью данной CMS вы можете редактировать текста, и заменять картинки, изменять HTML код, JS и CSS вашего лэндинга.<p>CMS не требует установки, достаточно положить ее файл в папку рядом с файлом index.html<p>Разработано в 2017 году Иваном Сараевым (<a href="http://pythono.ru">pythono.ru</a>) в качестве мини-админки для лэндингов.</div>');
+	echo('<div id="help"><p><br><h2>admin (версия 0.1)</h2><p>Данная CMS состоит всего из одного файла admin.php и предназначена для управления уже готовыми лэндингами, состоящими из HTML страницы, и подключенных к ней CSS файлов.<p>	С помощью данной CMS вы можете редактировать текста, и заменять картинки, изменять HTML код, JS и CSS вашего лэндинга.<p>CMS не требует установки, достаточно положить ее файл в папку рядом с файлом index.html<p>Разработано в 2017 году Иваном Сараевым (<a href="http://pythono.ru">pythono.ru</a>) в качестве мини-админки для лэндингов. <br>Дополнено A&S в 2018.</div>');
 };
 
 echo('</body></html>');
